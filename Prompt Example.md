@@ -13,23 +13,23 @@ Here is a reusable master prompt:
 Act as a Senior Software Engineer and Agentic Coding Engineer with expertise in Java, Spring Boot, Microservices, Kafka, SQL and distributed systems.
 
 Before making any changes:
-  1. Understand the existing project structure and architecture.
-  2. Identify relevant classes, interfaces, services, configurations and dependencies.
-  3. Understand existing coding conventions and design patterns.
-  4. Identify potential impacts on existing functionality.
-  5. Propose an implementation plan.
-   
-  Implementation guidelines:
-  - Follow clean code principles and SOLID.
-  - Reuse existing components wherever possible.
-  - Avoid unnecessary dependencies.
-  - Handle exceptions and edge cases.
-  - Write production-quality code.
-  - Maintain backward compatibility.
-  - Do not introduce unrelated changes.
-  - Never assume business requirements that are not specified.
+1. Understand the existing project structure and architecture.
+2. Identify relevant classes, interfaces, services, configurations and dependencies.
+3. Understand existing coding conventions and design patterns.
+4. Identify potential impacts on existing functionality.
+5. Propose an implementation plan.
 
-   After implementation:
+Implementation guidelines:
+- Follow clean code principles and SOLID.
+- Reuse existing components wherever possible.
+- Avoid unnecessary dependencies.
+- Handle exceptions and edge cases.
+- Write production-quality code.
+- Maintain backward compatibility.
+- Do not introduce unrelated changes.
+- Never assume business requirements that are not specified.
+
+After implementation:
 1. Write unit and integration tests.
 2. Execute the relevant test suite.
 3. Fix any failures introduced by your changes.
@@ -44,9 +44,9 @@ This is your foundation. You can reuse it for almost every development activity.
 
                                           Understanding an existing codebase
 
-   Situation: You join a new project or start working on an unfamiliar repository.
+Situation: You join a new project or start working on an unfamiliar repository.
 
-   Don't ask the agent to start coding immediately. First ask it to understand the architecture.
+Don't ask the agent to start coding immediately. First ask it to understand the architecture.
 
 Recommended prompt
 
@@ -442,10 +442,10 @@ or production migrations without explicit approval.
 ----------------------------------------------------------------------------------------------------------------------------------------
 
                         Advanced prompts: What separates a good agentic engineer from an average one?
-   
-   The previous examples cover individual development activities. These next prompts are particularly important for senior and lead engineers.
-   A. Ask the agent to challenge your design
-   Act as a Principal Engineer and challenge my proposed architecture.
+
+The previous examples cover individual development activities. These next prompts are particularly important for senior and lead engineers.
+A. Ask the agent to challenge your design
+Act as a Principal Engineer and challenge my proposed architecture.
 
 Do not simply agree with my design.
 
@@ -552,17 +552,17 @@ changes and test results.
    Ask for a plan before implementation	Prevents unnecessary changes.
    Give repository context	Avoids incorrect assumptions.
    Demand actual test execution	Generated tests don't mean tests passed.
-   Control agent permissions. 
+   Control agent permissions.
    Prevents unintended destructive operations.
 ----------------------------------------------------------------------------------------------------------------------------------------
 6.                                        My recommendation: Master these skills
    For a Lead/Staff Engineer aspiring to become an Agentic Engineer, I would prioritize:
-   - Repository-level understanding – AI must understand existing enterprise codebase.
-   - Agentic debugging – Root cause analysis across multiple services.
-   - Autonomous feature development – End-to-end implementation.
-   - Agentic testing – Generating, executing and improving test coverage.
-   - Architecture reviews – Using AI to challenge technical decisions.
-   - Tool orchestration – Git, terminal, IDE, build tools and CI/CD.
-   - Human-in-the-loop engineering – Knowing when to approve, reject or redirect an agent.
-   - One important distinction: A developer who asks AI to generate a Java class is using AI-assisted coding. An engineer who delegates a complete feature, supervises the architecture, validates the implementation and manages the risks is practising agentic engineering.
+    - Repository-level understanding – AI must understand existing enterprise codebase.
+    - Agentic debugging – Root cause analysis across multiple services.
+    - Autonomous feature development – End-to-end implementation.
+    - Agentic testing – Generating, executing and improving test coverage.
+    - Architecture reviews – Using AI to challenge technical decisions.
+    - Tool orchestration – Git, terminal, IDE, build tools and CI/CD.
+    - Human-in-the-loop engineering – Knowing when to approve, reject or redirect an agent.
+    - One important distinction: A developer who asks AI to generate a Java class is using AI-assisted coding. An engineer who delegates a complete feature, supervises the architecture, validates the implementation and manages the risks is practising agentic engineering.
 ----------------------------------------------------------------------------------------------------------------------------------------
